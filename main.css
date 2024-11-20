@@ -4,10 +4,20 @@ html {
 
 header{
 	text-align: center;
+	font-family: "Courier New", Courier, monospace;
+	letter-spacing: 2.8px;
+	word-spacing: 2.8px;
+	text-transform: lowercase;
+}
+
+h1, h3{
+	font-size: ;
 }
 
 #home-link{
-	color: lightsteelblue;
+	display: block;
+	min-height: 37px;
+	color: black;
 	text-decoration: none;
 }
 
@@ -16,15 +26,21 @@ header{
 	display: flex;
 	justify-content: center;
   	align-items: center;
-  	margin: 0;
+  	margin: 0px;
 }
 
 button{
-	padding: 9px;
-	font-size: 20px;
-	text-decoration: none;
 	border-radius: 0px;
 	border: none;
+	padding: 9px;
+	margin: 0px 10px;
+	font-size: 20px;
+	letter-spacing: -1.2px;
+	word-spacing: -1.2px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: 500;
+	text-transform: lowercase;
+	text-decoration: none;
 }
 
 button:hover {
@@ -34,7 +50,7 @@ button:hover {
 main {
 	display: flex;
   	flex-direction: column;
-  	margin: 0;
+  	margin: 0 10%;
 }
 
 .content{
