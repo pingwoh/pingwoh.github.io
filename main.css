@@ -1,8 +1,43 @@
-.header{
+html {
+	background-color: #FFFFFF;
+}
+
+header{
 	text-align: center;
 }
 
 #home-link{
 	color: lightsteelblue;
 	text-decoration: none;
+}
+
+
+.tabs {
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	margin: 0;
+}
+
+button{
+	padding: 9px;
+	font-size: 20px;
+	text-decoration: none;
+	border-radius: 0px;
+	border: none;
+}
+
+button:hover {
+	background-color: aliceblue;
+}
+
+main {
+	display: flex;
+  	flex-direction: column;
+  	margin: 0;
+}
+
+.content{
+  	padding: 1.5rem 1.5rem 48px;
+  	margin: 0 auto;
 }
