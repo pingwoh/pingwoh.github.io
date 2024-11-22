@@ -1,24 +1,24 @@
 html {
 	background-color: #FFFFFF;
+	margin: 2%;
 }
 
 .big-graphic{
 	display: block;
-	margin: 20rem 10rem 10rem 5rem;
-	height: 55vh;
+	margin: 18rem 10rem 10rem 5rem;
+	height: 40vh;
 	font-family: "Courier New", Courier, monospace;
 	letter-spacing: 2.8px;
 	word-spacing: 2.8px;
 	text-transform: lowercase;
 }
 
-#home-link{
+h1{
 	display: block;
 	position: relative;
 	margin: 0px;
 	min-height: 200px;
-	font-size: 75px;
-	text-decoration: none;
+	font-size: 150px;
 	color: black;
 }
 
@@ -28,31 +28,15 @@ html {
 	font-size: 21px;
 }
 
-#typewriter-cursor{
-	position: absolute;
-	top: 15px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-    height: 120px;
-    background-color: transparent;
-    border-left: 3px solid black;
-}
-
-main {
-  	margin: 0 25%;
-}
-
-.content{
-  	padding: 1.5rem 1.5rem 48px;
-  	margin: 0 auto;
-}
-
 .tabs {
 	display: flex;
+	position: sticky;
 	justify-content: center;
   	align-items: center;
   	margin: 0px;
+  	padding: 15px;
+  	bottom: 0;
+  	border-top: 2px solid black;
 }
 
 button{
