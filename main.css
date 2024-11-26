@@ -1,16 +1,17 @@
 html {
 	background-color: #FFFFFF;
-	margin: 2%;
+	font-family: "Courier New", Courier, monospace;
+	text-transform: lowercase;
 }
 
-.big-graphic{
-	display: block;
-	margin: 18rem 10rem 10rem 5rem;
+.intro{
+	display: flex;
 	height: 40vh;
-	font-family: "Courier New", Courier, monospace;
+	margin: 20px 200px;
+	padding: 250px 25px 200px 25px;
+	flex-direction: column;
 	letter-spacing: 2.8px;
 	word-spacing: 2.8px;
-	text-transform: lowercase;
 }
 
 h1{
@@ -31,11 +32,11 @@ h1{
 .tabs {
 	display: flex;
 	position: sticky;
-	justify-content: center;
-  	align-items: center;
-  	margin: 0px;
+  	margin: 10px;
   	padding: 15px;
   	bottom: 0;
+  	justify-content: center;
+  	align-items: center;
   	border-top: 2px solid black;
 }
 
