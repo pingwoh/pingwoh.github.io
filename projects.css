@@ -1,7 +1,6 @@
 body{
 	font-family: "Courier New", Courier, monospace;
 	text-transform: lowercase;
-	margin: 2%;
 }
 
 header{
@@ -45,8 +44,10 @@ p, .links, .skills {
 
 .skills{
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .links {
 	font-size: 30px;
+	margin-left: 15px;
 }
