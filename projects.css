@@ -17,9 +17,13 @@ header{
 	color: black;
 }
 
-a {
+a{
 	text-decoration: none;
 	color: black;
+}
+
+.show-underline{
+	text-decoration: underline;
 }
 
 main{
@@ -30,8 +34,12 @@ main{
 }
 
 
-p, .links, .skills {
+p, .links, .skills, .gallery{
 	padding-left: 100px;
+}
+
+.content{
+	padding-bottom: 100px;
 }
 
 #headshot{
@@ -47,16 +55,13 @@ p, .links, .skills {
 	flex-wrap: wrap;
 }
 
-.links {
+.links{
 	font-size: 30px;
 	margin-left: 15px;
 }
 
 .screenshot{
-	height: 500px;
-	width: 1000px;
+	height: 400px;
+	width: 800px;
 }
 
-.gallery{
-	/* TODO: maybe? */
-}
