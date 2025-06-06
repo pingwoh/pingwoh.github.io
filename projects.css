@@ -14,6 +14,7 @@ header{
 
 #home-link{
 	font-size: 21px;
+	width: 20%;
 	color: black;
 }
 
@@ -64,4 +65,3 @@ p, .links, .skills, .gallery{
 	height: 400px;
 	width: 800px;
 }
-

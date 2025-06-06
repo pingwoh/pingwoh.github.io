@@ -15,6 +15,13 @@ html {
 	word-spacing: 2.8px;
 }
 
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .intro, h1, #subtitle {
+    width: 100%;
+  }
+}
+
 h1{
 	display: block;
 	position: relative;
@@ -24,10 +31,16 @@ h1{
 	color: black;
 }
 
-#subtitle{
+
+h4 {
 	margin: 0px;
 	text-align: right;
+	font-size: 21px;
+}
+
+#subtitle{
 	font-size: 1.5vw;
+	min-height: 50px;
 }
 
 .tabs, footer {
