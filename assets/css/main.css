@@ -2163,6 +2163,14 @@ input, select, textarea {
 	text-align: center;
 }
 
+.hidden{
+	color: white;
+}
+
+.skills{
+	
+}
+
 a{
 	color: darkblue;
 }
