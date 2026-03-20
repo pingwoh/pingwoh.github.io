@@ -2163,12 +2163,14 @@ input, select, textarea {
 	text-align: center;
 }
 
-.hidden{
-	color: white;
+.skills-header
+{
+	font-size: 0.8em;
 }
 
-.skills{
-	
+.hidden{
+	color: white;
+	font-size: 0.1em;
 }
 
 a{
